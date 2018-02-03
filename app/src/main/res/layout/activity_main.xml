@@ -1,18 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version "1.0" encoding= "utf-8"?>
+< RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.annar.joystick.MainActivity">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
 
-    <TextView
+    <Button
+        android:id="@+id/Left"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello Ryan!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_centerVertical="true"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLef="@+id/Right"
+        android:layout_weight="1"
+        android:text="Left" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/Right"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="Right" />
+
+    <Button
+        android:id="@+id/Up"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:text="Up" />
+
+    <Button
+        android:id="@+id/Down"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Left"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Down" />
+</RelativeLayout>
