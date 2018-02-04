@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Joystick.iml" filepath="$PROJECT_DIR$/Joystick.iml" />
+      <module fileurl="file://C:\Users\kelly\OneDrive\Documents\GitHub\hackuci2018\Joystick.iml" filepath="C:\Users\kelly\OneDrive\Documents\GitHub\hackuci2018\Joystick.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\kelly\OneDrive\Documents\GitHub\hackuci2018\app\app.iml" filepath="C:\Users\kelly\OneDrive\Documents\GitHub\hackuci2018\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hackuci2018.iml" filepath="$PROJECT_DIR$/hackuci2018.iml" />
     </modules>
   </component>
 </project>

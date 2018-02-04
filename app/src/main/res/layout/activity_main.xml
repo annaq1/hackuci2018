@@ -46,4 +46,14 @@
         android:layout_marginStart="37dp"
         android:text="TextView" />
 
+    <TextView
+        android:id="@+id/checkConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text"
+        android:layout_marginBottom="29dp"
+        android:layout_toLeftOf="@+id/text2"
+        android:layout_toStartOf="@+id/text2"
+        android:text="TextView" />
+
 </RelativeLayout>
